@@ -23,9 +23,13 @@ Thanks and Credit to this Repo for the minimal Cortex-M0 basis: https://github.c
 
 
 General TN2115S2 Infos:
+
 32KB Flash 0x00000000 - 0x00007fff = Can be written from 0x00 to 0xff
+
 8KB RAM 0x20000000 - 0x20002000
+
 2KB EEPROM 0x60000000 - 0x60000800 = Can be written from 0x00 to 0xff
+
 
 To enable Memory writing:
 0x40000600 = 0x93A57B28
